@@ -1,3 +1,5 @@
+### This is a fork from https://github.com/anonymousauthors001/AGS-GNN in order to accelerate the Lazy Greedy algorithm for graph selection. The goal is to convert the Python algorithm to C/C++
+
 
 ## AGS-GNN: Attribute-guided Sampling for Graph Neural Network
 
