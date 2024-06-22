@@ -63,5 +63,5 @@ kernel_name = os.path.basename(sys.executable.replace("/bin/python",""))
 
 if kernel_name == 'py38cu11':
     import ctypes
-    ctypes.cdll.LoadLibrary("/apps/gilbreth/cuda-toolkit/cuda-11.2.0/lib64/libcusparse.so.11");
-    ctypes.cdll.LoadLibrary("/apps/gilbreth/cuda-toolkit/cuda-11.2.0/lib64/libcublas.so.11");
+    ctypes.cdll.LoadLibrary("/home/njbrunsi/anaconda3/pkgs/cudatoolkit-11.8.0-h6a678d5_0/lib/libcusparse.so.11");     # /apps/gilbreth/cuda-toolkit/cuda-11.2.0/lib64/libcusparse.so.11
+    ctypes.cdll.LoadLibrary("/home/njbrunsi/anaconda3/pkgs/cudatoolkit-11.8.0-h6a678d5_0/lib/libcublas.so.11");       # /apps/gilbreth/cuda-toolkit/cuda-11.2.0/lib64/libcublas.so.11
