@@ -1,0 +1,3 @@
+karate acc 0.6267 sd 0.0680 itr 106 sd 14
+karate acc 0.6067 sd 0.0646 itr 95 sd 8
+cornell5 

@@ -1,6 +1,5 @@
 ### This is a fork from https://github.com/anonymousauthors001/AGS-GNN in order to accelerate the Lazy Greedy algorithm for graph selection. The goal is to convert the Python algorithm to C/C++
 
-
 ## AGS-GNN: Attribute-guided Sampling for Graph Neural Network
 
 primary libraries used for implementation are `Pytorch-1.9.0`, `PytorchGeometric-2.0.4`, `DeepGraphLibrary (DGL)-latest`, `Apricot-latest`.
@@ -63,6 +62,7 @@ From the conda environment pip packages exported using
 
 
 # Running AGS-GNN
+## Update local code specific file paths before running anything. Linked to original local machine
 
 ### Dataset
 
